@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>HTML Upload Example</title>
+</head>
+<body>
+  <form action="https://filehost.net/api/v2/file/upload" method="post" enctype="multipart/form-data">
+  <p><input type="hidden" name="access_token" value="HERE ACCESS TOKEN">
+  <p><input type="hidden" name="account_id" value="HERE ACCOUNT_ID">
+  <p><input type="file" name="upload_file">
+  <p><button type="submit">Submit</button>
+</form>
+</body>
+</html>
